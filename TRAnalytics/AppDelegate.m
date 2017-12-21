@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  TRAnalytics
 //
-//  Created by ZYW on 2017/12/21.
+//  Created by ZYW on 2017/7/5.
 //  Copyright © 2017年 ZYW. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "TRAnalytics.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
 	// Override point for customization after application launch.
+	NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];  	
+	NSString *appVersion = infoDictionary[@"CFBundleDisplayName"];  
+	//设置版本号
+	[TRAnalytics setAppVersion:appVersion];
+	//设置渠道
+	[TRAnalytics setChannel:@"AppStore"];
+	//设置打开崩溃开关
+	[TRAnalytics setExceptCrashCatchEnable:YES];
+	//发送策略
+	[TRAnalytics setReportPolicy:REALTIME method:CLT];
+	[TRAnalytics setReportPolicy:SEND_INTERVAL method:PV];
+	[TRAnalytics setReportPolicy:BATCH method:CRS];
+	
 	return YES;
 }
 

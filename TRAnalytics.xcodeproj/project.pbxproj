@@ -13,6 +13,15 @@
 		42ACD75A1FEB921B0011FC65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42ACD7591FEB921B0011FC65 /* Assets.xcassets */; };
 		42ACD75D1FEB921C0011FC65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ACD75B1FEB921C0011FC65 /* LaunchScreen.storyboard */; };
 		42ACD7601FEB921C0011FC65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD75F1FEB921C0011FC65 /* main.m */; };
+		42ACD76B1FEB92FA0011FC65 /* TRAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD76A1FEB92FA0011FC65 /* TRAnalytics.m */; };
+		42ACD76E1FEB936C0011FC65 /* TRAnalyticsField.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD76D1FEB936C0011FC65 /* TRAnalyticsField.m */; };
+		42ACD7711FEB950E0011FC65 /* TRLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7701FEB950E0011FC65 /* TRLocation.m */; };
+		42ACD7741FEB9F570011FC65 /* TRAnalyticsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7731FEB9F570011FC65 /* TRAnalyticsRequest.m */; };
+		42ACD7771FEB9F7D0011FC65 /* TRAnalyticsAssem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7761FEB9F7D0011FC65 /* TRAnalyticsAssem.m */; };
+		42ACD7931FEBA94A0011FC65 /* UIControl+TRAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7921FEBA94A0011FC65 /* UIControl+TRAnalytics.m */; };
+		42ACD7991FEBAB5C0011FC65 /* UIViewController+TRAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD7981FEBAB5C0011FC65 /* UIViewController+TRAnalytics.m */; };
+		42ACD79C1FEBAC200011FC65 /* UINavigationController+TRAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD79B1FEBAC200011FC65 /* UINavigationController+TRAnalytics.m */; };
+		42ACD79F1FEBACB30011FC65 /* WKWebView+TRAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ACD79E1FEBACB30011FC65 /* WKWebView+TRAnalytics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,25 @@
 		42ACD75C1FEB921C0011FC65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42ACD75E1FEB921C0011FC65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42ACD75F1FEB921C0011FC65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42ACD7671FEB927F0011FC65 /* TRAnalyticsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAnalyticsMacro.h; sourceTree = "<group>"; };
+		42ACD7691FEB92FA0011FC65 /* TRAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAnalytics.h; sourceTree = "<group>"; };
+		42ACD76A1FEB92FA0011FC65 /* TRAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAnalytics.m; sourceTree = "<group>"; };
+		42ACD76C1FEB936C0011FC65 /* TRAnalyticsField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAnalyticsField.h; sourceTree = "<group>"; };
+		42ACD76D1FEB936C0011FC65 /* TRAnalyticsField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAnalyticsField.m; sourceTree = "<group>"; };
+		42ACD76F1FEB950E0011FC65 /* TRLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRLocation.h; sourceTree = "<group>"; };
+		42ACD7701FEB950E0011FC65 /* TRLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRLocation.m; sourceTree = "<group>"; };
+		42ACD7721FEB9F570011FC65 /* TRAnalyticsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAnalyticsRequest.h; sourceTree = "<group>"; };
+		42ACD7731FEB9F570011FC65 /* TRAnalyticsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAnalyticsRequest.m; sourceTree = "<group>"; };
+		42ACD7751FEB9F7D0011FC65 /* TRAnalyticsAssem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRAnalyticsAssem.h; sourceTree = "<group>"; };
+		42ACD7761FEB9F7D0011FC65 /* TRAnalyticsAssem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRAnalyticsAssem.m; sourceTree = "<group>"; };
+		42ACD7911FEBA94A0011FC65 /* UIControl+TRAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+TRAnalytics.h"; sourceTree = "<group>"; };
+		42ACD7921FEBA94A0011FC65 /* UIControl+TRAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+TRAnalytics.m"; sourceTree = "<group>"; };
+		42ACD7971FEBAB5C0011FC65 /* UIViewController+TRAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TRAnalytics.h"; sourceTree = "<group>"; };
+		42ACD7981FEBAB5C0011FC65 /* UIViewController+TRAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TRAnalytics.m"; sourceTree = "<group>"; };
+		42ACD79A1FEBAC200011FC65 /* UINavigationController+TRAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+TRAnalytics.h"; sourceTree = "<group>"; };
+		42ACD79B1FEBAC200011FC65 /* UINavigationController+TRAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+TRAnalytics.m"; sourceTree = "<group>"; };
+		42ACD79D1FEBACB30011FC65 /* WKWebView+TRAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView+TRAnalytics.h"; sourceTree = "<group>"; };
+		42ACD79E1FEBACB30011FC65 /* WKWebView+TRAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+TRAnalytics.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +70,7 @@
 		42ACD7441FEB92190011FC65 = {
 			isa = PBXGroup;
 			children = (
+				42ACD7661FEB924A0011FC65 /* Analytics */,
 				42ACD74F1FEB921A0011FC65 /* TRAnalytics */,
 				42ACD74E1FEB921A0011FC65 /* Products */,
 			);
@@ -69,6 +98,32 @@
 				42ACD75F1FEB921C0011FC65 /* main.m */,
 			);
 			path = TRAnalytics;
+			sourceTree = "<group>";
+		};
+		42ACD7661FEB924A0011FC65 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				42ACD7671FEB927F0011FC65 /* TRAnalyticsMacro.h */,
+				42ACD7691FEB92FA0011FC65 /* TRAnalytics.h */,
+				42ACD76A1FEB92FA0011FC65 /* TRAnalytics.m */,
+				42ACD76C1FEB936C0011FC65 /* TRAnalyticsField.h */,
+				42ACD76D1FEB936C0011FC65 /* TRAnalyticsField.m */,
+				42ACD7721FEB9F570011FC65 /* TRAnalyticsRequest.h */,
+				42ACD7731FEB9F570011FC65 /* TRAnalyticsRequest.m */,
+				42ACD7751FEB9F7D0011FC65 /* TRAnalyticsAssem.h */,
+				42ACD7761FEB9F7D0011FC65 /* TRAnalyticsAssem.m */,
+				42ACD76F1FEB950E0011FC65 /* TRLocation.h */,
+				42ACD7701FEB950E0011FC65 /* TRLocation.m */,
+				42ACD7911FEBA94A0011FC65 /* UIControl+TRAnalytics.h */,
+				42ACD7921FEBA94A0011FC65 /* UIControl+TRAnalytics.m */,
+				42ACD7971FEBAB5C0011FC65 /* UIViewController+TRAnalytics.h */,
+				42ACD7981FEBAB5C0011FC65 /* UIViewController+TRAnalytics.m */,
+				42ACD79A1FEBAC200011FC65 /* UINavigationController+TRAnalytics.h */,
+				42ACD79B1FEBAC200011FC65 /* UINavigationController+TRAnalytics.m */,
+				42ACD79D1FEBACB30011FC65 /* WKWebView+TRAnalytics.h */,
+				42ACD79E1FEBACB30011FC65 /* WKWebView+TRAnalytics.m */,
+			);
+			path = Analytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +198,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				42ACD7551FEB921B0011FC65 /* ViewController.m in Sources */,
+				42ACD76E1FEB936C0011FC65 /* TRAnalyticsField.m in Sources */,
+				42ACD79F1FEBACB30011FC65 /* WKWebView+TRAnalytics.m in Sources */,
 				42ACD7601FEB921C0011FC65 /* main.m in Sources */,
+				42ACD76B1FEB92FA0011FC65 /* TRAnalytics.m in Sources */,
+				42ACD7931FEBA94A0011FC65 /* UIControl+TRAnalytics.m in Sources */,
+				42ACD7991FEBAB5C0011FC65 /* UIViewController+TRAnalytics.m in Sources */,
+				42ACD7771FEB9F7D0011FC65 /* TRAnalyticsAssem.m in Sources */,
+				42ACD7711FEB950E0011FC65 /* TRLocation.m in Sources */,
 				42ACD7521FEB921B0011FC65 /* AppDelegate.m in Sources */,
+				42ACD7741FEB9F570011FC65 /* TRAnalyticsRequest.m in Sources */,
+				42ACD79C1FEBAC200011FC65 /* UINavigationController+TRAnalytics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7G5APLTWY;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = TRAnalytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zyw.TRAnalytics;
@@ -294,6 +359,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7G5APLTWY;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = TRAnalytics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zyw.TRAnalytics;
